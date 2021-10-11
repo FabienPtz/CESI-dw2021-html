@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cours HTML</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contente="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>document</title>
 </head>
 
-
 <body>
-	<form action="/data.php">
-		<input type="text" value="" pattern="[a-z]{4, 20}" placeholder="Prénom" name="Prénom" required>
-		<br>
-		<input type="text" value="" pattern="[a-z]{4, 20}" placeholder="Nom" name="Nom" required>
-		<br>
-		<input type="datetime" value="" placeholder="Date de naissance" name="Date de naissance" required>
-		<br>
-		<input type="text" value="" pattern="[a-z]{4, 20}" placeholder="Ville" name="Ville" required>
-		<br>
-		<input type="tel" value="" placeholder="Téléphone" name="Téléphone" required>
-		<br>
-		<input type="submit" name="Submit">
-	</form>
+    <form class="formform" action="/data.php">
+        <h1 class="headform"> FORMULAIRE DE CONTACT</h1>
+        <input class="forminput" type="text" value="" pattern="[a-z]{4, 20}" placeholder="Prénom" name="firstname" required>
+        <br>
+        <input class="forminput" type="text" value="" pattern="[a-z]{4, 20}" placeholder="nom" name="lastname" required>
+        <br>
+        <input class="forminput"type="datetime" value="" placeholder="date de naissance" name="date de naissance" required>
+        <br>
+        <input class="forminput" type="text" value="" pattern="[a-z]{4, 20}" placeholder="ville" name="Ville" required>
+        <br>
+        <input class="forminput" type="tel" value="" placeholder="téléphone" name="téléphone" required>
+        <br>
+        <input class="formButton" type="submit" >
+    </form>
 </body>
+
 </html>
